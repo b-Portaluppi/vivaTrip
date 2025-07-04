@@ -1,0 +1,42 @@
+.containerForm {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    max-width: 700px;
+    height: 150px;
+    border-radius: 4px;
+    gap: 15px;
+}
+
+.input {
+    border-radius: 10px;
+    padding: 14px;
+    border: 2px solid #000000;
+    font-size: 20px;
+    width: 500px;
+    border: none;
+}
+
+.buttonInput {
+    width: 150px;
+    padding: 12px;
+    border-radius: 10px;
+    border: none;
+    background-color: #1F4068;
+    color: #FFF;
+    font-size: 17px;
+}
+
+@media (max-width: 728px) {
+    .containerForm {
+        max-width: 400px;
+        padding: 10px;
+        flex-direction: column;
+        margin-top: 20px;
+    }
+
+    .input {
+        width: 300px;
+    }
+}

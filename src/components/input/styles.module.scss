@@ -1,0 +1,22 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    width: 100vw;
+    align-items: center;
+
+    input {
+        border: 2px solid #a4a4a4;
+        outline: none;
+        padding: 10px;
+        font-size: 18px;
+        width: 100%;
+        max-width: 350px;
+        border-radius: 8px;
+    }
+
+}
+
+.messageError {
+    color: #fe3b3b;
+}

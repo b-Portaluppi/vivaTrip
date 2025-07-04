@@ -1,0 +1,25 @@
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 14px;
+
+    span {
+        font-size: 17px;
+        max-width: 400px;
+        text-align: center;
+    }
+}
+
+.button {
+    width: 200px;
+    color: #FFF;
+    background-color: #e96f23;
+    padding: 10px;
+    border-radius: 6px;
+    text-align: center;
+    border: none;
+    font-size: 18px;
+    margin-bottom: 20px;
+}

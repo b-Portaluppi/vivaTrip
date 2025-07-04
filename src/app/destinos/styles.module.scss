@@ -1,0 +1,67 @@
+.container  {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+
+    h1 {
+        color: #1F4068;
+        font-size: 40px;
+    }
+}
+
+.containerCidades {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-top: 20px;
+}
+
+.containerCity {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+}
+
+.containerImage {
+    position: relative;
+    width: 100%;
+    height: 240px;
+}
+
+.innerImage {
+    max-width: 300px;
+    border-radius: 10px;
+    margin: 0 auto;
+}
+
+.title {
+    color: #1F4068;
+}
+
+.price {
+    font-size: 18px;
+    color: #EA6512;
+    font-weight: bold;
+}
+
+.btn { 
+    color: #FFF;
+    background-color: #EA6512;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 12px; 
+    font-weight: bold;
+    font-size: 18px;
+}
+
+@media (max-width: 728px) {
+    .container {
+        h1 {
+            font-size: 30px;
+        }
+    }
+}

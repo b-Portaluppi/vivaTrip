@@ -1,0 +1,14 @@
+.header {
+    width: 100vw;
+    max-width: 1080px;
+    margin: auto;
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+}
+
+@media (max-width: 728px) {
+    .header {
+        flex-direction: column;
+    }
+}

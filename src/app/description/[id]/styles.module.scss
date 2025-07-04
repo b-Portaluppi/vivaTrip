@@ -1,0 +1,99 @@
+.container {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.containerImage {
+    width: 100%;
+    height: 400px;
+    display: flex;
+}
+
+.image {
+    width: 100%;
+    max-width: 900px;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+
+.containerDescricao {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 1080px;
+    justify-content: center;
+    margin-top: 30px
+}
+
+.containerTitle {
+    display: flex;
+    flex-direction: column;
+
+    margin-bottom: 10px;
+
+    h1 {
+        font-size: 50px;
+        font-weight: bold;
+        color: #1F4068;
+    }
+
+    h2 {
+        font-size: 20px;
+        color: #1f4068b7;
+    }
+}
+
+.containerText {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    justify-content: center;
+    gap: 40px;
+}
+
+.descricao {
+    background-color: #FFF;
+    padding: 20px;
+    width: 400px;
+    height: 300px;
+    border-radius: 10px;
+
+    h3 {
+        font-size: 20px;
+        color: #1F4068;
+        margin-bottom: 10px;
+    }
+
+    p {
+        font-size: 18px;
+        font-weight: lighter;
+        text-align: justify;
+        color: #000000ba;
+    }
+}
+
+.maps {
+    background-color: #FFF;
+    padding: 20px;
+    width: 400px;
+    height: 300px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.btnReserva {
+    width: 200px;
+    border-radius: 16px;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: #f36309;
+    padding: 10px;
+    color: #FFF;
+    border: none;
+}
