@@ -3,9 +3,11 @@ import { Maps } from "../maps"
 import Image from "next/image"
 import styles from './styles.module.scss'
 
-export default async function Page({params: {id}}: {
-    params: {id: string}
+export default async function Page({params}: {
+    params: Promise<{id: string}>
 }) {
+
+    const {id} = await params
 
     const city = await getCidadeInfo(id)
 

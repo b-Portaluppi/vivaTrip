@@ -3,9 +3,11 @@ import styles from './styles.module.scss'
 import Image from "next/image"
 import Link from "next/link"
 
-export default async function Busca({params: {busca}}: {
-    params: {busca: string}
+export default async function Busca({params}: {
+    params: Promise<{busca: string}>
 }) {
+
+    const {busca} = await params
 
     const nome = decodeURIComponent(busca)
 
